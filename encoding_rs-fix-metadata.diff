@@ -1,0 +1,10 @@
+--- encoding_rs-0.8.22/Cargo.toml	2019-12-19T12:33:22+00:00
++++ encoding_rs-0.8.22/Cargo.toml	2019-12-27T07:29:54.111439+00:00
+@@ -22,6 +22,7 @@
+ categories = ["text-processing", "encoding", "web-programming", "internationalization"]
+ license = "MIT/Apache-2.0"
+ repository = "https://github.com/hsivonen/encoding_rs"
++exclude = ["/generate-encoding-data.py"]
+ [profile.release]
+ lto = true
+ [dependencies.cfg-if]
